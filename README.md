@@ -17,6 +17,7 @@ exprs.
 • Constructs the constants table, and the free-variables table.
 
 • Calls generate to generate a string of x86-64 assembly instructions for every expr’.
+
 • Adds a prologue and epilogue to the string, so that it becomes a self-contained assembly
 language program.
 
